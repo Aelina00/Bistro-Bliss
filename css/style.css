@@ -128,12 +128,26 @@ font-style: normal;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-menu {
-	margin-right: 8px;
-}
-
 
 /* header */
 .head{
 	padding: 20px 0;
+	align-items: center;
+}
+
+.menu a{
+	padding: 4px 16px;
+	margin-right: 8px 0;
+	color:#2C2F24;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    border-radius: 34px;
+	transition: 0.3s;
+}
+.menu li:last-child a{
+margin-right: 0;
+}
+.menu a:hover{
+	background: #DBDFD0;
 }
