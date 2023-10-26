@@ -151,3 +151,28 @@ margin-right: 0;
 .menu a:hover{
 	background: #DBDFD0;
 }
+p{
+color: #2C2F24;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.btns{
+margin:16px;
+display: flex;
+padding: 20px 32px;
+justify-content: center;
+align-items: center;
+border-radius: 118px;
+border:2px solid #2C2F24;
+color: #182226
+}
+main{
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0,75),rgba(0,0,0,0,75)),url(/img/image\ 110.jpg);
+	background-size: cover;
+	background-position: center;
+}
