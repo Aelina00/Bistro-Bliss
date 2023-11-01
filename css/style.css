@@ -197,7 +197,9 @@ section {
 }
 
 .main {
-	background-image: url(/img/msg1269057702-8305.jpg) center no-repeat;
+	background-image: url(../img/bgimg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 
 }
 
@@ -232,7 +234,8 @@ section {
 	padding: 40px 34px 32px;
 	margin-top: 64px;
 }
-.browse_ic{
+
+.browse_ic {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -240,75 +243,93 @@ section {
 	background: #F3F3F0;
 	margin: 0 auto 30px;
 }
-.browse_tit{
-color: #2C2F24;
-text-align: center;
-font-size: 24px;
-font-weight: 700;
-line-height: 30px; /* 125% */
-letter-spacing: -0.72px;
-margin-bottom: 15px;
+
+.browse_tit {
+	color: #2C2F24;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	/* 125% */
+	letter-spacing: -0.72px;
+	margin-bottom: 15px;
 }
-.browse_txt{
-color: #414536;
-text-align: center;
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-margin-top: 15px;
+
+.browse_txt {
+	color: #414536;
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	/* 150% */
+	margin-top: 15px;
 }
-.browse_link{
-display: inline-flex;
-width: 111px;
-height: 26px;
-justify-content: center;
-align-items: center;
-text-align: center;
-gap: 10px;
-border-radius: 12px;
-color: #AD343E;
-margin-top: 30px;
+
+.browse_link {
+	display: inline-flex;
+	width: 111px;
+	height: 26px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 10px;
+	border-radius: 12px;
+	color: #AD343E;
+	margin-top: 30px;
 }
-.browse_card__1 .browse_ic{
-	border-image: url(/img/tea\ 1.png);
+
+.browse_card__1 .browse_ic {
+	background-image: url(../img/tea.png) ;
+	background-repeat: no-repeat;
+	background-position: center;
 }
-.browse_card__2 .browse_ic{
-	border-image: url(/img/icon.png);
+
+.browse_card__2 .browse_ic {
+	background-image: url(../img/icon.png);
 }
-.browse_card__3 .browse_ic{
-	border-image: url(/img/icon3.png);
+
+.browse_card__3 .browse_ic {
+	background-image: url(../img/icon3.png);
 }
-.browse_card__4 .browse_ic{
-	border-image: url(/img/icon4.png);
+
+.browse_card__4 .browse_ic {
+	background-image: url(../img/icon4.png);
 }
 
 /* about us */
-.about_tit{
-color:#2C2F24;
-font-family: Playfair Display;
-font-size: 55px;
-font-weight: 500;
-line-height: 60.5px; /* 110% */
+.about_tit {
+	color: #2C2F24;
+	font-family: Playfair Display;
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 60.5px;
+	/* 110% */
 }
-.about_txt{
-color: #2C2F24;
-font-family: DM Sans;
-font-size: 18px;
-font-weight: 500;
-line-height: 28px; /* 155.556% */
-margin-top: 24px;
+
+.about_txt {
+	color: #2C2F24;
+	font-family: DM Sans;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28px;
+	/* 155.556% */
+	margin-top: 24px;
 }
-.about_p{
+
+.about_p {
 	color: #414536;
 	font-family: DM Sans;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 24px; /* 150% */
+	line-height: 24px;
+	/* 150% */
 	margin-top: 24px;
+	margin-bottom: 40px;
 }
-.about_btn{
+
+.about_btn {
 	transition: 0.3s;
 	border-radius: 118px;
 	border: 2px solid #2C2F24;
@@ -320,43 +341,164 @@ margin-top: 24px;
 	line-height: 24px;
 	margin-top: 40px;
 }
-.about_img{
+
+.about_img {
 	position: relative;
 }
-.about_holder{
+
+.about_holder {
 	display: inline-flex;
-    gap: 90px;
+	gap: 90px;
 }
-.card{
+
+.card {
 	border-radius: 12px;
-    background: #474747;
+	background: #474747;
+	color: #FFF;
 	width: 411px;
-    height: 321px;
 	position: absolute;
-	z-index:999;
+	z-index: 999;
 	top: 295px;
 	left: 238px;
+	padding: 50px 50px;
 }
-.card_tit{
-	padding: 50px 50px ;
-color: #FFF;
-font-family: DM Sans;
+
+.card_tit {
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+	/* 125% */
+	letter-spacing: -0.72px;
+	margin-bottom: 40px;
+}
+.card1{
+	margin-bottom: 25px;
+}
+.card2{
+	margin-bottom: 25px;
+}
+
+.card_ic {
+	width: 24px;
+	height: 24px;
+	margin-bottom: 25px;
+}
+/* offer */
+.offer .about_tit{
+	max-width: 675px;
+	margin-bottom: 52px;
+}
+.offer_card{
+	width: calc((100% - 48px) / 4);
+	transition: 0.3s;
+	border-radius: 12px;
+	padding-bottom: 20px;
+}
+.offer_card:hover{
+	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+.offer_img{
+	margin-bottom: 30px;
+}
+.offer_tit{
+color: #2C2F24;
 font-size: 24px;
-font-style: normal;
 font-weight: 700;
 line-height: 30px; /* 125% */
 letter-spacing: -0.72px;
+margin-bottom: 15px;
+padding-left: 10px;
 }
-.card_txt{
-color: #F9F9F7;
-font-family: DM Sans;
+.offer_txt{
+color: #414536;
+font-size: 16px;
+line-height: 24px; /* 150% */
+padding-left: 10px;
+}
+.delivery_info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.txt{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	color: #414536;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px; /* 150% */
-margin-bottom: 25px;
 }
-.card_ic{
-width: 24px;
-height: 24px;
-margin-bottom: 25px;
+.features .f1{
+	margin-bottom: 20px;
+	border-radius: 65px;
+    background: #AD343E;
+	background-image: url(../img/clock.jpg) ;
+}
+.features .f2{
+	margin-bottom: 20px;
+}
+.img2{
+	margin-top: 30px;
+	margin-left: 24px;
+}
+
+/* customer */
+.customer_card{
+    flex-direction: column;
+    align-items: flex-start;
+	border-radius: 12px;
+    background: #F9F9F7;
+	width: calc((100% - 48px) / 3);
+	padding: 45px 35px 35px 35px;
+	margin-top: 64px;
+}
+.customer_tit{
+color: #AD343E;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px; /* 125% */
+letter-spacing: -0.72px;
+margin-bottom: 24px;
+}
+.customer_txt{
+	color: #414536;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px; /* 155.556% */
+	margin-bottom: 32px;
+}
+.customer_line{
+position: absolute;
+content: ' ';
+width: 346px;
+height: 1px;
+opacity: 0.7;
+background: #DBDFD0;
+margin-bottom: 32px;
+}
+.customer{
+	margin-top: 32px;
+	display: flex;
+	align-items: center;
+}
+.c_ic{
+	align-items: center;
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+	display: block;
+	background: #F3F3F0;
+	margin: 0 auto 30px;
+}
+.customer__1 .c_ic{
+	background-image: url(/img/customer1.png);
+}
+.customer__2 .c_ic{
+	background-image: url(/img/customer2.png);
+}
+.customer__3 .c_ic{
+	background-image: url(/img/customer3.png);
 }
