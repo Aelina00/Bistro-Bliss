@@ -1006,15 +1006,19 @@ box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
 .d_tit{
 	font-size: 20px;
 	font-weight: 500;
-}pages
+}
 .d_info{
 	padding: 15px 28px 26px 25px;
 }
-.detail1 span{
-color: #414536;
-font-size: 18px;
-font-weight: 700;
-line-height: 28px;
+.count {
+	counter-reset: test;
+}
+.count li ::before{
+	counter-increment: test;
+	content: counter(test);
+	margin-right: 10px;
+	font-style: 20px;
+	font-weight: 700;
 }
 /* pages */
 .b_card{
