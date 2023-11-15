@@ -1012,10 +1012,10 @@ box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
 }
 .count {
 	counter-reset: test;
+	width: 1076px;
 }
 .count li ::before{
 	counter-increment: test;
-	content: counter(test);
 	margin-right: 10px;
 	font-style: 20px;
 	font-weight: 700;
