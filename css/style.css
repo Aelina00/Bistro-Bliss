@@ -1052,3 +1052,11 @@ align-self: stretch;
 	background: #F9F9F7;
 	z-index: -1;
 }
+.gap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 16%;
+	z-index: -1;
+}
