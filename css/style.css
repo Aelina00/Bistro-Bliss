@@ -537,10 +537,13 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 }
 .blog_card{
+transition: 0.3s;
 border-radius: 12px;
 border: 1px solid #F9F9F7;
-box-shadow: 0px 3px 60px 0px rgba(0, 0, 0, 0.08);;
 margin-bottom: 24px;
+}
+.blog_card:hover{
+	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
 }
 .b_info{
 padding: 30px 25px 14px 25px;
@@ -762,6 +765,10 @@ text-align: center;
 font-family: "Playfair Display";
 font-size: 55px;
 line-height: 60.5px; /* 110% */
+transition: 0.3s;
+}
+.number_item:hover{
+	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
 }
 .number_item span{
 font-family: "DM Sans";
@@ -773,9 +780,6 @@ font-weight: 500;
 line-height: 28px; /* 155.556% */
 }
 /* menu */
-.main3 .input{
-	margin-left: 450px;
-}
 .main3_tit{
 color: #2C2F24;
 text-align: center;
@@ -790,6 +794,7 @@ width: calc((100% - 48px) / 4);
 transition: 0.3s;
 border-radius: 12px;
 padding-bottom: 20px;
+margin-bottom: 32px;
 }
 .menu_card:hover{
 box-shadow: 0 5px 5px rgba(0,0,0,0.2);
@@ -867,11 +872,15 @@ margin-top: 30px;
         align-items: center;
         gap: 40px;
 	}
+	.conapp img:hover{
+		box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+	}
 	.conapp img{
 		padding: 30px 46px;
 		border-radius: 12px;
 		border: 1px solid #F9F9F7;
 		box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+		transition: 0.3s;
 	}
 	.app1{
 		display: block;
@@ -1001,7 +1010,10 @@ margin-bottom: 24px;
 width: 306px;
 border-radius: 12px;
 border: 1px solid  #F9F9F7;
-box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+transition: 0.3s;
+}
+.d_card:hover{
+	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
 }
 .d_tit{
 	font-size: 20px;
@@ -1027,6 +1039,10 @@ border-radius: 12px;
 border: 1px solid  #F9F9F7;
 box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
 margin-bottom: 32px;
+transition: 0.3s;
+}
+.b_card:hover{
+	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
 }
 .b_tit{
 font-size: 20px;
@@ -1052,11 +1068,12 @@ align-self: stretch;
 	background: #F9F9F7;
 	z-index: -1;
 }
-.gap{
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 16%;
-	z-index: -1;
+.map{
+	padding-top: 0;
+}
+.form_wrap{
+	padding-bottom: 0;
+	margin-bottom: -240px;
+	z-index: 10;
+	position: relative;
 }
