@@ -1,3 +1,3 @@
 document.querySelector('.js-btn').addEventListener('click', function(){
-    alert('Order sended')
+    document.querySelector('.js-btn').classList.add('order')
 })
